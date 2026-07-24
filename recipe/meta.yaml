@@ -1,5 +1,5 @@
 {% set name = "envstack" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8f8431395e74b64cd484be2bd90fd79995803c2880b14292af0938edecd19797
+  sha256: bb4bed908a8cbb49b915f530c7ac08d86233f08f66269a8cc4195125ed8b9cc7
 
 build:
   noarch: python
